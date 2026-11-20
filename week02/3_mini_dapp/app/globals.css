@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f5f7fa;
+  color: #182333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  max-width: 760px;
+  margin: 65px auto;
+  padding: 0 20px;
+}
+
+.heading {
+  margin-bottom: 30px;
+}
+
+.heading h1 {
+  margin: 14px 0 8px;
+  font-size: 32px;
+}
+
+.heading p,
+.panel p,
+.note {
+  color: #596576;
+}
+
+.network {
+  display: inline-block;
+  padding: 7px 12px;
+  background: #e3eefc;
+  border-radius: 6px;
+  color: #245cb3;
+  font-size: 13px;
+}
+
+.panel {
+  padding: 28px;
+  background: white;
+  border: 1px solid #e3e8ef;
+  border-radius: 12px;
+}
+
+.topline {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.topline h2 {
+  margin: 0;
+}
+
+button {
+  background: #1c65cd;
+  color: white;
+  border: 0;
+  padding: 11px 16px;
+  border-radius: 7px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 17px 0;
+  border-bottom: 1px solid #edf0f4;
+}
+
+.field span {
+  color: #596576;
+  font-size: 14px;
+}
+
+.field strong {
+  font-size: 20px;
+}
+
+.field code {
+  overflow-wrap: anywhere;
+  font-size: 13px;
+}
+
+.panel > button {
+  margin-top: 20px;
+}
+
+.error {
+  color: #b91c1c !important;
+  overflow-wrap: anywhere;
+}
+
+.note {
+  margin-top: 20px;
+  font-size: 13px;
+}
